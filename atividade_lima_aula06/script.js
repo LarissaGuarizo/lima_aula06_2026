@@ -5,7 +5,7 @@ const salvarAluno = document.querySelector("#salvar")
 const tabelaAluno = document.querySelector("#tabela")
 
 
-salvar.addEventListener("click", function(){
+salvarAluno.addEventListener("click", function(){
     
     const linha = document.createElement('tr')
     const colunaNomeAluno = document.createElement('td')
@@ -30,7 +30,7 @@ const salvarProfessor = document.querySelector("#salvar")
 const tabelaProfessor = document.querySelector("#tabela")
 
 
-salvar.addEventListener("click", function(){
+salvarProfessor.addEventListener("click", function(){
     
     const linha = document.createElement('tr')
     const colunaNomeProfessor = document.createElement('td')
